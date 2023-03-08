@@ -29,7 +29,7 @@ async function fetchData(urlapi) {
       <img src="${album.releases.items[0].coverArt.sources[0].url}" alt="" class="w-full">
     </div>
     <div class="mt-4 flex justify-between">
-      <h3 class="text-sm text-gray-700">
+      <h3 class="text-sm text-gray-300">
         <span aria-hidden="true" class="absolute inset-0"></span>
         ${album.releases.items[0].name}
       </h3>
